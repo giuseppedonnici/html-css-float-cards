@@ -10,7 +10,7 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-.clearfix {
+.clearfix::after {
     content: "";
     display: table;
     clear: both;
@@ -18,10 +18,10 @@ body {
 
 /* BANNER */
 .title-container {
-    text-align: center;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     margin-top: 50px;
+    text-align: center;
 }
 
 .title-container h1 {
@@ -38,15 +38,17 @@ body {
 /* MAIN */
 .card-container {
     color: #FFFFFE;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .card {
+    box-shadow: 5px 5px 5px 5px grey;
     background-color: #0F0E17;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 30px);
     font-size: 1.5rem;
-    min-width: 500px;
+    float: left;
+    margin-right: 30px;
 }
 
 .card img {
@@ -60,6 +62,10 @@ body {
     text-decoration: none;
 }
 
-.card p {
-    margin: 5px 0;
+.card p, h3 {
+    margin: 10px 0;
+}
+
+.row {
+    margin-bottom: 50px;
 }
