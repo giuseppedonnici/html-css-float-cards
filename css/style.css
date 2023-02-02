@@ -4,3 +4,27 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* COMMON */
+body {
+    font-family: 'Fredoka', sans-serif;
+}
+
+/* TITLE */
+.title-container {
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.title-container h1 {
+    color: #E53170;
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.title-container p {
+    font-size: 1.5rem;
+    margin: 80px 0 50px 0;
+}
