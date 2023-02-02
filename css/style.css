@@ -10,7 +10,13 @@ body {
     font-family: 'Fredoka', sans-serif;
 }
 
-/* TITLE */
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* BANNER */
 .title-container {
     text-align: center;
     width: 70%;
@@ -27,4 +33,33 @@ body {
 .title-container p {
     font-size: 1.5rem;
     margin: 80px 0 50px 0;
+}
+
+/* MAIN */
+.card-container {
+    color: #FFFFFE;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.card {
+    background-color: #0F0E17;
+    width: calc(100% / 3);
+    font-size: 1.5rem;
+    min-width: 500px;
+}
+
+.card img {
+    float: left;
+    margin-right: 20px;
+    height: 150px;
+}
+
+.card a {
+    color: #159CDE;
+    text-decoration: none;
+}
+
+.card p {
+    margin: 5px 0;
 }
