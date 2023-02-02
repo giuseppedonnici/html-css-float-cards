@@ -42,8 +42,12 @@ body {
     margin: 0 auto;
 }
 
+.row {
+    margin-bottom: 50px;
+}
+
 .card {
-    box-shadow: 5px 5px 5px 5px grey;
+    box-shadow: 3px 3px 3px 3px grey;
     background-color: #0F0E17;
     width: calc(100% / 3 - 30px);
     font-size: 1.5rem;
@@ -64,8 +68,4 @@ body {
 
 .card p, h3 {
     margin: 10px 0;
-}
-
-.row {
-    margin-bottom: 50px;
 }
